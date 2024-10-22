@@ -6,12 +6,22 @@
   <title>Hello World</title>
   <link href='/style.css' rel='stylesheet'>
   <style>
-    body{font-family:Verdana, Geneva, Tahoma, sans-serif}
+    body{font-family:Verdana, Geneva, Tahoma, sans-serif; }
     h6{color:blue;font-size:16px;}
-    h1{color:brown;font-family:cursive; text-shadow: 2px 2px 2px black;}
+    h1{color:brown;font-family:cursive; text-shadow: 2px 2px 2px black; }
     p{color:springgreen;padding bottom: 15px;}
-    button{color:rgb(242, 252, 242);padding: 10px; background-color: rgb(63, 102, 89); border: none; border-radius: 10px;}
+    button{color:rgb(242, 252, 242);padding: 10px; background-color: rgb(63, 102, 89); border: none; border-radius: 10px; }
+    </style>
+    <style>
+    img{
+      filter:grayscale(200%);
+      aspect-ratio: 4/3;
+      width: 200px;
+      object-fit: contain;
+      transition: all 1.0s ease-in-out; }
+    img:hover{filter:grayscale(0);}
   </style>
+
 </head>
 
 <body>
@@ -33,6 +43,9 @@
     </ul>
   </p>
   <p>Lanjut.....</p>
+  <img src="image/gmbr01.jpg" alt="">
+  <img src="image/gmbr02.jpg" alt="">
+  <img src="image/gmbr03.webp" alt="">
 
   <button onclick="console.log('hello');">Press me</button>
   <script defer type="text/javascript" src="/main.js"></script>
